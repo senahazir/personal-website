@@ -1,0 +1,135 @@
+
+
+.splash-page{
+color: black;
+background-color: gray;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: gray;
+  
+  
+}
+
+/* For the aesthetics */
+.nav-button {
+  position: relative;
+  top: 30px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  text-decoration: underline
+}
+
+.headline{
+  height:100px ;
+ margin-left: 100px;
+ flex-direction: column;
+  height: 500px;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.intro{
+  position: relative;
+  font-size: 60px;
+  color: white;
+  left: 0px;
+  font-weight: bold;
+}
+.intro-para{
+  position: relative;
+  font-size: 30px;
+  color: white;
+  left:0px;
+}
+
+.contact-button{
+  position: relative;
+  top:50px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  border-style: solid;
+  font-size: medium;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.self-pic{
+ position: relative;
+ height: 280px;
+ width: 330px;
+ left: 950px;
+ bottom:370px;
+ border-radius: 20px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: left;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  
+}
+.proj-col{
+  display: flex;
+  position: relative;
+  bottom:100px;
+  left: 80px;
+  border-style: solid;
+  width: 750px;
+  height: 200px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: white;
+  
+
+}
+.indent{
+  text-indent: 30px;
+}
+
+.project-1-pic{
+  position: relative;
+  height: 200px;
+  width: 600px;
+  left: 850px;
+  bottom:330px;
+  border-radius: 20px;
+ 
+ }
+
+ .project-2-pic{
+  position: relative;
+  height: 180px;
+  width: 600px;
+  left: 850px;
+  bottom:320px;
+  border-radius: 20px;
+ 
+ }
+ .project-3-pic{
+  position: relative;
+  height: 180px;
+  width: 600px;
+  left: 850px;
+  bottom:320px;
+  border-radius: 20px;
+ 
+ }
